@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM docker:stable
 RUN apk add --no-cache \
   openssh-client \
   ca-certificates \
